@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: rgb(51, 48, 48);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin-top: 1%;
+}
+
+.coverBlock {
+  width: 30%;
+}
+
+.buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  width: 30%;
+}
+
+.cover {
+  color: white;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkF {
+  color: gray;
+  text-decoration: none;
+}
+
+.linkF:hover {
+  text-decoration: none;
+  border-bottom: 5px solid gray;
+}
+
+.featuresF {
+  color: #fff;
+  border-bottom-color: #fff;
+  border-bottom: 5px solid;
+}
+
+.plusMinus {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 80px;
+}
+
+.plusMinus span {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.block-2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style-type: none;
+  margin-top: 3%;
+  width: 56%;
+}
+
+li {
+  font-size: 20.5px;
+  padding-bottom: 4px;
+}
+
+.pluses {
+  padding-left: 40px;
+}
+
+.mp {
+  font-size: 24px;
+}
